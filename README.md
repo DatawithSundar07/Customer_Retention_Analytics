@@ -2,7 +2,7 @@
 
 This project analyzes customer purchasing behavior using SQL to measure **retention, churn, and customer lifetime value (CLV)**.
 
-The analysis is built using the **AdventureWorksDW2022** dataset in Microsoft SQL Server and demonstrates common analytics techniques used in real business environments.
+The analysis is built using the **AdventureWorksDW2025** dataset in Microsoft SQL Server and demonstrates common analytics techniques used in real business environments.
 
 ---
 
@@ -22,7 +22,7 @@ These insights help businesses improve customer retention and revenue growth.
 
 # Dataset
 
-Dataset used: **AdventureWorksDW2022**
+Dataset used: **AdventureWorksDW2025**
 
 Main tables used:
 
