@@ -45,7 +45,7 @@ customer-retention-analytics
 ├── schema
 │   └── schema_diagram.png
 │
-├── queries
+├── scripts
 │   ├── 01_cohort_analysis.sql
 │   ├── 02_retention_rate.sql
 │   ├── 03_churn_detection.sql
