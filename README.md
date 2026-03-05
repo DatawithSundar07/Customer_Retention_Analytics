@@ -107,35 +107,3 @@ Segments customers based on their total revenue contribution.
 # Project Goal
 
 This project demonstrates how raw transactional data can be transformed into **customer insights and business metrics using SQL**.
-
-```mermaid
-erDiagram
-
-    DimCustomer {
-        int CustomerKey PK
-        string FirstName
-        string LastName
-    }
-
-    DimDate {
-        int DateKey PK
-        date FullDateAlternateKey
-    }
-
-    DimProduct {
-        int ProductKey PK
-        string ProductName
-    }
-
-    FactInternetSales {
-        int SalesOrderNumber
-        int CustomerKey FK
-        int ProductKey FK
-        int OrderDateKey FK
-        decimal SalesAmount
-    }
-
-    DimCustomer ||--o{ FactInternetSales : purchases
-    DimProduct ||--o{ FactInternetSales : contains
-    DimDate ||--o{ FactInternetSales : order_date
-```
