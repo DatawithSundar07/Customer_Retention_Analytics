@@ -43,7 +43,7 @@ customer-retention-analytics
 ├── README.md
 │
 ├── schema
-│   └── er_diagram.png
+│   └── schema_diagram.png
 │
 ├── queries
 │   ├── 01_cohort_analysis.sql
