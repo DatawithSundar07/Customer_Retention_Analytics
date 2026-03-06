@@ -1,5 +1,5 @@
 /*
-Project: Customer Retention Analytics (SQL Portfolio)
+Project: Customer Retention Analytics
 Script: 01_cohort_analysis.sql
 Goal: Identify the first purchase month (cohort) for each customer.
 
