@@ -7,6 +7,24 @@ The project is built using **SQL Server and T-SQL**, organized into modular SQL 
 
 ---
 
+# Dataset
+
+This project uses the **AdventureWorks2025** sample database from Microsoft SQL Server.
+
+AdventureWorks is a **sample transactional database** that represents a fictional manufacturing company and includes tables for sales, customers, products, and orders.
+
+Key tables used in this project include:
+
+```
+FactInternetSales
+DimCustomer
+DimDate
+```
+
+These tables provide the necessary data to perform **customer behavior and retention analysis**.
+
+---
+
 # Project Structure
 
 ```
@@ -64,9 +82,9 @@ Calculates the percentage of customers who **return after their first purchase**
 ### 3. Customer Activity Status
 Classifies customers as:
 
-- Active
-- Inactive
-- Churned
+- Active  
+- Inactive  
+- Churned  
 
 based on the **time since their last purchase**.
 
@@ -102,15 +120,16 @@ Segments customers using the **RFM model**:
 
 # How to Run
 
-1. Load a **sales dataset** into SQL Server containing fields such as:
+1. Download and restore the **AdventureWorks2025** database in SQL Server.
+2. Ensure the required tables are available:
 
 ```
-CustomerID
-OrderDate
-Revenue
+FactInternetSales
+DimCustomer
+DimDate
 ```
 
-2. Run the SQL scripts in sequence:
+3. Run the SQL scripts in sequence:
 
 ```
 01_cohort_analysis.sql
@@ -120,8 +139,6 @@ Revenue
 05_customer_revenue_segmentation.sql
 06_customer_rfm_segmentation.sql
 ```
-
-Each script generates insights used in customer analytics.
 
 ---
 
