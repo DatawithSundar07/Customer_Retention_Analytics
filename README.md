@@ -29,23 +29,6 @@ Main tables used:
 
 ---
 
-# Project Structure
-
-Customer_Retention_Analytics
-│
-├── Scripts
-│ ├── 01_cohort_analysis.sql
-│ ├── 02_customer_retention_rate.sql
-│ ├── 03_customer_activity_status.sql
-│ ├── 04_customer_lifetime_value.sql
-│ ├── 05_customer_revenue_segmentation.sql
-│ └── 06_customer_rfm_segmentation.sql
-│
-├── LICENSE
-└── README.md
-
----
-
 # Analysis Overview
 
 ### 1️⃣ Cohort Analysis
@@ -114,7 +97,6 @@ Each script produces analytical outputs that can be used for **reporting or dash
 # Author
 
 **Sundar Rajan M**  
-Aspiring Data Engineer  
 
 GitHub:  
 https://github.com/DatawithSundar07
